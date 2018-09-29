@@ -15,18 +15,18 @@ class App extends Component {
     this.getUsers();
   }
 
-  async getUsers() {
+  getUsers() {
     // We're using axios instead of Fetch
-    await axios
+    axios
       // The API we're requesting data from
-      .get("https://randomuser.me/api/?results=5")
+      .get("https://randomuser.me/api/?results=10")
       // Once we get a response, we'll map the API endpoints to our props
       .then(response =>
         response.data.results.map(user => ({
           name: `${user.name.first} ${user.name.last}`,
           username: `${user.login.username}`,
           email: `${user.email}`,
-          image: `${user.picture.thumbnail}`
+          image: `${user.picture.large}`
         }))
       )
       // Let's make sure to change the loading state to display the data
