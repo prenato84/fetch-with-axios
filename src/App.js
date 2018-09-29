@@ -15,9 +15,9 @@ class App extends Component {
     this.getUsers();
   }
 
-  getUsers() {
+  async getUsers() {
     // We're using axios instead of Fetch
-    axios
+    await axios
       // The API we're requesting data from
       .get("https://randomuser.me/api/?results=5")
       // Once we get a response, we'll map the API endpoints to our props
