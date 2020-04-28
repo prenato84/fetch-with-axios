@@ -2,10 +2,10 @@
 
 Projeto que utiliza a biblioteca Axios para realizar consultas assíncronas à API do **[Randomuser.me](https://randomuser.me/)**.
 
-Depois de obter o JSON de resposta com dados aleatórios de 10 usuários, eles são exibidos por meio de um componente React :electron:.
+Após obter o JSON de resposta com dados aleatórios de usuários, eles são exibidos por meio de um componente React :electron:.
 
 <p align="center">
-  <img width="50%" src="./assets/projeto.jpg">
+  <img width="50%" src="./assets/projeto.JPG">
 </p>
 
 ### :keyboard: Instalação e Execução
