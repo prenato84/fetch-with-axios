@@ -5,7 +5,7 @@ Projeto que utiliza a biblioteca Axios para realizar consultas assíncronas à A
 Após obter o JSON de resposta com dados aleatórios de usuários, eles são exibidos por meio de um componente React :electron:.
 
 <p align="center">
-  <img width="30%" src="./assets/projeto.JPG">
+  <img src="./assets/projeto.JPG">
 </p>
 
 ### :keyboard: Instalação e Execução
