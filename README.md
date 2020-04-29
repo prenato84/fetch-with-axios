@@ -38,7 +38,7 @@ npm start
 
 ### :man_technologist: Pré-requisitos do Ambiente
 
-- Interpretador Javascriot **[Node JS](https://nodejs.org/en/download/)**
+- Interpretador Javascript **[Node JS](https://nodejs.org/en/download/)**
 - Sistema de versionamento **[Git](https://git-scm.com/)**
 
 OBS: caso não deseja utilizar o Git, pode baixar o projeto diretamente da página do GitHub
